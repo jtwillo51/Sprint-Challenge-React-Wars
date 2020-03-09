@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+a JavaScript library used to build components for the UI
+
 - [ ] What does it mean to _think_ in react?
+
+it means to think in components
 
 - [ ] Describe state.
 
+state stores a components dynamic data
+
 - [ ] Describe props.
 
+single values or objects that are passed to components on creation
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+it is a hook that will execute everytime something on the DOM changes. We can sync up hooks by passing in an array of states, or nothing if we only want to call it once, so when the given state changes, the effect will run.
 
 ## Project Set Up
 
